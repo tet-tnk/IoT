@@ -10,6 +10,8 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 
+from time import time
+
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('2quTZDkE4wZgkFJTzXOxPkp9lsRFfjbrgpTRs7aDAEXJ585EmdNS5fevD5Ru+RYQgQ1aYZsnIsgQ+q51hWvAHGLiqrN0opYGdbA2/nSL8YxKD31juuVdcvCYMBkZ6jZi43gTfBnSGXT1GVZ1l7fDXQdB04t89/1O/w1cDnyilFU=')
